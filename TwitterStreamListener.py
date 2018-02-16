@@ -7,10 +7,10 @@ from translate import Translator  #https://github.com/terryyin/translate-python
 translator = Translator(to_lang='fa')
 
 #Variables that contains the user credentials to access Twitter API
-consumer_key = "VFxSViBzPN8iUNyprZ9IcLvF7"
-consumer_secret = "eS0lu24T2peGpBJ3LQm00XvUdbLVwbu4YRFY2phQcf7DKp1z9R"
-access_token = "941235626136842240-uStWd7OI5fa3HG8lgLupTrFSHqh1oH4"
-access_token_secret = "yXl0u1km0qpoFxul2FXEqUUBqBBBREjXcpj8FKym3ETqr"
+consumer_key = "you should generate it for yourself at dev.twitter"
+consumer_secret = "you should generate it for yourself at dev.twitter"
+access_token = "you should generate it for yourself at dev.twitter"
+access_token_secret = "you should generate it for yourself at dev.twitter"
 
 #This is a basic listener that just prints received tweets to stdout.
 class StdOutListener(StreamListener):
